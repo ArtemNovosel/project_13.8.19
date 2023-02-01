@@ -4,9 +4,7 @@ try:
     i = 0  #счетчик регистраций
     while i < koll:
         i += 1
-        print(i)
-        print("введите возраст", i, "посетителя")
-        vozrast = int(input('- '))
+        vozrast = int(input(f'введите возраст {i} посетителя- '))
         if vozrast >= 25 :
             # print("1390")
             summ += 1390
